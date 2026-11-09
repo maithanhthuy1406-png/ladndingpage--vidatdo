@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VỊ ĐẤT ĐỎ - Tinh Hoa Nông Sản & Đặc Sản Miền Đông Nam Bộ</title>
+  <meta name="description" content="Thương hiệu nông sản & đặc sản cao cấp Vị Đất Đỏ: Bưởi Tân Triều, Sầu riêng Ri6 chín cây, Hạt điều rang muối Bình Phước, Chôm chôm nhãn Long Khánh. Chuẩn VietGAP, bao ăn 1 đổi 1.">
+
+  <!-- Google Fonts: Playfair Display & Be Vietnam Pro -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              DEFAULT: '#9A3B26', // Đỏ đất bazan chủ đạo
+              50: '#FDF6F4',
+              100: '#FBECE8',
+              600: '#9A3B26',
+              700: '#802E1D',
+              800: '#672213',
+              900: '#4D170C',
+            },
+            secondary: {
+              DEFAULT: '#E77935', // Cam ấm nắng
+              light: '#F5A623',   // Vàng nắng rực rỡ
+              50: '#FEF7F0',
+              100: '#FDEEE1',
+              600: '#E77935',
+              700: '#C86020',
+            },
+            leaf: {
+              DEFAULT: '#2E6B34', // Xanh lá cây tươi nông sản
+              50: '#F2F8F3',
+              100: '#E2F0E4',
+              600: '#2E6B34',
+              700: '#235328',
+              800: '#193C1D',
+            },
+            base: {
+              DEFAULT: '#FFF8EE', // Nền kem ấm mộc mạc
+              surface: '#FFFDF9',
+              card: '#FBF2E3',
+              border: '#EEDDC4',
+            },
+            ink: '#261C14', // Nâu đen ấm sang trọng
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['"Be Vietnam Pro"', 'Inter', 'sans-serif'],
+          },
+          boxShadow: {
+            'warm-sm': '0 2px 10px rgba(154, 59, 38, 0.08)',
+            'warm-md': '0 10px 25px -5px rgba(154, 59, 38, 0.12), 0 8px 10px -6px rgba(154, 59, 38, 0.08)',
+            'warm-lg': '0 20px 40px -12px rgba(154, 59, 38, 0.22)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #FFF8EE;
+      color: #261C14;
+      font-family: 'Be Vietnam Pro', sans-serif;
+    }
+    .font-heading {
+      font-family: 'Playfair Display', Georgia, serif;
+    }
+    .glass-header {
+      background: rgba(255, 248, 238, 0.92);
+      backdrop-filter: blur(10px);
+    }
+    @keyframes pulseSoft {
+      0%, 100% { transform: scale(1); box-shadow: 0 10px 25px -5px rgba(154, 59, 38, 0.35); }
+      50% { transform: scale(1.025); box-shadow: 0 16px 32px -5px rgba(231, 121, 53, 0.45); }
+    }
+    .cta-bounce {
+      animation: pulseSoft 3s infinite ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-base text-ink antialiased selection:bg-primary selection:text-white">
+
+  <!-- ================= TOP ANNOUNCEMENT BAR ================= -->
+  <div class="bg-primary text-base-surface text-xs sm:text-sm font-medium tracking-wide py-2 px-4 text-center border-b border-primary-700/50">
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-2 flex-wrap">
+      <span class="inline-block w-2 h-2 rounded-full bg-secondary-light animate-ping"></span>
+      <span>HÁI TƯƠI TẬN VƯỜN HÔM NAY: <strong>Bưởi Tân Triều</strong> & <strong>Sầu Riêng Ri6 Chín Cây</strong> — Cam kết <strong>1 Đổi 1 Trong 48h</strong>!</span>
+      <a href="#offer" class="underline underline-offset-4 text-secondary-light hover:text-white font-bold ml-1">Nhận ưu đãi 25% ngay &rarr;</a>
+    </div>
+  </div>
+
+  <!-- ================= NAVIGATION HEADER ================= -->
+  <header class="sticky top-0 z-50 glass-header border-b border-base-border transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Brand Logo -->
+        <a href="#" class="flex items-center gap-3 group">
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white shadow-warm-sm group-hover:scale-105 transition-all duration-300">
+            <!-- Icon Nông sản đất đỏ & mầm lá -->
+            <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 01-9-9c0-4.97 4.03-9 9-9 4.14 0 7.63 2.8 8.67 6.64A7 7 0 0112 21zm0 0v-8m0 0l-3 3m3-3l3 3" />
+            </svg>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-heading text-2xl sm:text-3xl font-bold tracking-tight text-primary leading-none">VỊ ĐẤT ĐỎ</span>
+            <span class="text-[10px] sm:text-[11px] tracking-[0.22em] text-leaf font-bold uppercase mt-1">Đặc Sản Miền Đông Nam Bộ</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-stone-700">
+          <a href="#hero" class="hover:text-primary transition-colors">Trang Chủ</a>
+          <a href="#social-proof" class="hover:text-primary transition-colors">Uy Tín & Đánh Giá</a>
+          <a href="#features" class="hover:text-primary transition-colors">Bộ Sưu Tập Đặc Sản</a>
+          <a href="#offer" class="hover:text-primary transition-colors">Hộp Quà & Combo</a>
+          <a href="#footer" class="hover:text-primary transition-colors">Chính Sách 1 Đổi 1</a>
+        </nav>
+
+        <!-- Right Quick Action -->
+        <div class="hidden sm:flex items-center gap-3">
+          <div class="flex items-center text-leaf text-xs font-bold bg-leaf-50 px-3 py-1.5 rounded-full border border-leaf/30">
+            <svg class="w-3.5 h-3.5 mr-1 text-leaf" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            VietGAP & OCOP
+          </div>
+          <a href="#order-form" class="bg-primary hover:bg-primary-700 text-white text-xs uppercase tracking-wider font-bold py-2.5 px-5 rounded-lg shadow-warm-sm hover:shadow-warm-md transition-all duration-300">
+            Đặt Giao Nhanh 2H
+          </a>
+        </div>
+
+        <!-- Mobile Menu Hamburger Button -->
+        <button id="mobileMenuToggle" aria-label="Toggle navigation menu" class="md:hidden p-2 text-stone-700 hover:text-primary focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobileDropdown" class="hidden md:hidden bg-base-surface border-b border-base-border px-6 py-4 space-y-3">
+      <a href="#hero" class="block text-stone-700 hover:text-primary font-semibold">Trang Chủ</a>
+      <a href="#social-proof" class="block text-stone-700 hover:text-primary font-semibold">Uy Tín & Đánh Giá</a>
+      <a href="#features" class="block text-stone-700 hover:text-primary font-semibold">Bộ Sưu Tập Đặc Sản</a>
+      <a href="#offer" class="block text-stone-700 hover:text-primary font-semibold">Hộp Quà & Combo</a>
+      <a href="#footer" class="block text-stone-700 hover:text-primary font-semibold">Chính Sách 1 Đổi 1</a>
+      <div class="pt-2">
+        <a href="#order-form" class="block text-center bg-primary text-white py-2.5 rounded-lg font-bold text-sm">
+          Đặt Hái Tươi Giao Ngay
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- =========================================================================
+         SECTION 1: HERO SECTION (ATTENTION - THU HÚT TRONG 3 GIÂY)
+         Mô hình CARE:
+         - Context (Bối cảnh): Vùng đất đỏ bazan màu mỡ Miền Đông Nam Bộ - nơi sản sinh ra những thức quả ngọt lành nhất.
+         - Action (Hành động): "Thưởng Thức Trọn Vẹn Hương Vị Đất Mẹ Miền Đông".
+         - Result (Kết quả): Nông sản tươi hái tại vườn, chuẩn vị tự nhiên, mọng nước, đậm đà.
+         - Example/CTA: Nút CTA nổi bật "Khám Phá Bộ Sưu Tập Đặc Sản" & "Đặt Hàng Ngay".
+         ========================================================================= -->
+    <section id="hero" class="relative overflow-hidden pt-10 pb-16 lg:pt-16 lg:pb-24">
+      
+      <!-- Ambient Glows -->
+      <div class="absolute -top-36 -left-36 w-96 h-96 bg-primary-100/60 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute top-1/3 -right-36 w-96 h-96 bg-secondary-100/60 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -bottom-20 left-1/2 w-96 h-96 bg-leaf-100/50 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+          
+          <!-- Hero Copy (Left Column) -->
+          <div class="lg:col-span-7 space-y-6 text-left">
+            
+            <!-- Trust Badge Pill -->
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-base-surface border border-base-border shadow-sm">
+              <span class="w-2.5 h-2.5 rounded-full bg-leaf animate-pulse"></span>
+              <span class="text-xs uppercase tracking-widest text-leaf font-extrabold">100% Thu Hái Tươi Tại Vườn Sáng Sớm</span>
+              <span class="text-stone-300">|</span>
+              <span class="text-xs text-primary font-bold">Chuẩn VietGAP</span>
+            </div>
+
+            <!-- Main Headline -->
+            <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-ink tracking-tight leading-[1.15]">
+              Thưởng Thức Trọn Vẹn <br>
+              <span class="text-primary italic">Hương Vị Đất Mẹ</span> <br>
+              <span class="text-secondary-light underline decoration-leaf/40 underline-offset-8">Miền Đông Nam Bộ</span>.
+            </h1>
+
+            <!-- CARE Description -->
+            <p class="text-base sm:text-lg text-stone-700 leading-relaxed max-w-2xl">
+              Sinh ra từ dải <strong>đất đỏ bazan màu mỡ trứ danh</strong> của Đồng Nai và Bình Phước, <strong class="text-primary">VỊ ĐẤT ĐỎ</strong> mang đến những thức quả ngọt lành, mọng nước và đậm đà nhất: Bưởi đường Tân Triều mỏng vỏ, sầu riêng Ri6 chín cây múi vàng dẻo quánh, hạt điều rang củi thơm béo giòn tan.
+            </p>
+
+            <!-- 4 CARE Key Bullet Points -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-1">
+              <div class="flex items-start gap-2.5">
+                <div class="w-5 h-5 rounded-full bg-leaf-100 text-leaf flex items-center justify-center flex-shrink-0 mt-0.5 font-bold text-xs">
+                  ✓
+                </div>
+                <div class="text-xs sm:text-sm text-stone-800">
+                  <strong>Bưởi Tân Triều Chính Gốc:</strong> Mọng nước, róc múi, ngọt thanh lưu luyến.
+                </div>
+              </div>
+
+              <div class="flex items-start gap-2.5">
+                <div class="w-5 h-5 rounded-full bg-primary-100 text-primary flex items-center justify-center flex-shrink-0 mt-0.5 font-bold text-xs">
+                  ✓
+                </div>
+                <div class="text-xs sm:text-sm text-stone-800">
+                  <strong>Sầu Riêng Chín Cây:</strong> Cơm vàng hạt lép, bao ăn 1 đổi 1 tận tay.
+                </div>
+              </div>
+
+              <div class="flex items-start gap-2.5">
+                <div class="w-5 h-5 rounded-full bg-primary-100 text-primary flex items-center justify-center flex-shrink-0 mt-0.5 font-bold text-xs">
+                  ✓
+                </div>
+                <div class="text-xs sm:text-sm text-stone-800">
+                  <strong>Hạt Điều Rang Củi Bình Phước:</strong> Hạt loại A1 giòn rụm béo bùi.
+                </div>
+              </div>
+
+              <div class="flex items-start gap-2.5">
+                <div class="w-5 h-5 rounded-full bg-leaf-100 text-leaf flex items-center justify-center flex-shrink-0 mt-0.5 font-bold text-xs">
+                  ✓
+                </div>
+                <div class="text-xs sm:text-sm text-stone-800">
+                  <strong>Giao Nhanh Bảo Quản Lạnh:</strong> Giữ trọn vitamin & độ tươi trong 2 giờ.
+                </div>
+              </div>
+            </div>
+
+            <!-- CTA Action Buttons -->
+            <div class="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+              <a href="#offer" class="cta-bounce inline-flex items-center justify-center gap-3 bg-gradient-to-r from-primary to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white px-8 py-4 rounded-xl font-bold text-base sm:text-lg transition-all duration-300 shadow-warm-md">
+                <span>Đặt Mua Đặc Sản Ngay</span>
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                </svg>
+              </a>
+
+              <a href="#features" class="inline-flex items-center justify-center gap-2 bg-base-surface hover:bg-base-card text-stone-800 border border-base-border hover:border-primary px-6 py-4 rounded-xl font-bold text-sm sm:text-base transition-all duration-300 shadow-sm">
+                <span class="w-7 h-7 rounded-full bg-secondary text-white flex items-center justify-center text-xs">
+                  🍇
+                </span>
+                <span>Khám Phá Bộ Sưu Tập Đặc Sản</span>
+              </a>
+            </div>
+
+            <!-- Guarantee Highlights -->
+            <div class="pt-3 flex flex-wrap items-center gap-6 text-xs text-stone-600 font-semibold">
+              <div class="flex items-center gap-1.5 text-leaf">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                <span>Bao ăn 1 đổi 1 nếu sượng/hỏng</span>
+              </div>
+              <div class="flex items-center gap-1.5 text-primary">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                <span>Kiểm tra trái tươi mới trả tiền</span>
+              </div>
+              <div class="flex items-center gap-1.5 text-secondary-700">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                <span>Giao hỏa tốc 2 giờ tại nội thành</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Hero Visual Media (Right Column) -->
+          <div class="lg:col-span-5 relative">
+            <div class="relative mx-auto max-w-md lg:max-w-none">
+              
+              <!-- Backdrop Frame -->
+              <div class="absolute -inset-3 rounded-3xl bg-gradient-to-tr from-primary/30 via-secondary/20 to-leaf/20 blur-lg"></div>
+              
+              <!-- Image Card Container -->
+              <div class="relative rounded-3xl overflow-hidden border-2 border-base-border bg-base-surface shadow-warm-lg">
+                <!-- High quality fruit composition photo -->
+                <img 
+                  src="https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=900&q=80" 
+                  alt="Trái cây đặc sản miền Đông tươi mọng Bưởi Tân Triều Sầu Riêng Vị Đất Đỏ" 
+                  class="w-full h-[520px] object-cover object-center transform hover:scale-105 transition-transform duration-700 ease-out"
+                  loading="eager"
+                />
+
+                <!-- Floating Badge 1: Cam kết 1 đổi 1 (Top Left) -->
+                <div class="absolute top-4 left-4 glass-header border border-base-border/90 px-3.5 py-2.5 rounded-2xl shadow-md flex items-center gap-3">
+                  <div class="w-9 h-9 rounded-xl bg-leaf text-white flex items-center justify-center font-bold text-xs shadow-sm">
+                    100%
+                  </div>
+                  <div>
+                    <div class="text-[10px] text-stone-500 uppercase tracking-wider font-bold">Cam Kết Vàng</div>
+                    <div class="text-xs font-bold text-ink">Bao Ăn 1 Đổi 1 Trong 48H</div>
+                  </div>
+                </div>
+
+                <!-- Floating Badge 2: OCOP & Rating (Bottom Right) -->
+                <div class="absolute bottom-5 left-5 right-5 glass-header border border-base-border/90 p-4 rounded-2xl shadow-lg flex items-center justify-between">
+                  <div class="flex items-center gap-3">
+                    <div class="w-11 h-11 rounded-xl bg-primary text-white flex items-center justify-center text-lg font-bold shadow-sm">
+                      🥭
+                    </div>
+                    <div>
+                      <div class="flex items-center gap-1 text-amber-500 text-xs font-bold">
+                        ★★★★★ <span class="text-ink font-extrabold ml-1">4.9/5</span>
+                      </div>
+                      <div class="text-xs text-stone-700 font-medium">10.000+ gia đình đã tin dùng</div>
+                    </div>
+                  </div>
+                  <a href="#social-proof" class="text-xs font-bold text-primary hover:text-primary-800 underline">
+                    Xem review &rarr;
+                  </a>
+                </div>
+
+              </div>
+
+              <!-- Organic Stamp Decor -->
+              <div class="hidden sm:flex absolute -bottom-5 -right-5 w-24 h-24 rounded-full bg-leaf text-white border-4 border-base shadow-xl flex-col items-center justify-center text-center p-2 transform rotate-12">
+                <span class="text-[9px] uppercase tracking-wider font-bold">Chuẩn</span>
+                <span class="font-heading text-sm font-bold uppercase leading-none">VietGAP</span>
+                <span class="text-[8px] opacity-90 mt-0.5">Vườn Nhà 100%</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 2: SOCIAL PROOF (TRUST - XÂY DỰNG NIỀM TIN BAN ĐẦU)
+         Mô hình CARE:
+         - Context: Hơn 10.000+ gia đình Việt và du khách đã tin tưởng lựa chọn "Vị Đất Đỏ".
+         - Action: Chứng nhận VietGAP/Organic, chính sách bao đổi trả 1:1 nếu quả hỏng/bảo hành tươi ngon.
+         - Result: Con số ấn tượng (4.9/5 sao đánh giá, 98% khách hàng quay lại mua tiếp).
+         - Example: Slide/Card đánh giá thực tế từ khách hàng (kèm ảnh chụp bưởi, sầu riêng, hạt điều...).
+         ========================================================================= -->
+    <section id="social-proof" class="py-16 bg-base-card/60 border-y border-base-border relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Trust Metrics Counter -->
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 pb-14 border-b border-base-border text-center">
+          
+          <div class="p-5 bg-base-surface rounded-2xl border border-base-border shadow-sm">
+            <div class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-primary">10.000+</div>
+            <div class="text-xs sm:text-sm font-bold text-stone-800 mt-1">Gia Đình Tin Dùng</div>
+            <div class="text-[11px] text-stone-500 mt-0.5">Đặt ăn định kỳ hàng tuần</div>
+          </div>
+
+          <div class="p-5 bg-base-surface rounded-2xl border border-base-border shadow-sm">
+            <div class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-leaf">4.9 / 5★</div>
+            <div class="text-xs sm:text-sm font-bold text-stone-800 mt-1">Đánh Giá Hài Lòng</div>
+            <div class="text-[11px] text-stone-500 mt-0.5">Từ hơn 2.500 phản hồi thật</div>
+          </div>
+
+          <div class="p-5 bg-base-surface rounded-2xl border border-base-border shadow-sm">
+            <div class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary">98%</div>
+            <div class="text-xs sm:text-sm font-bold text-stone-800 mt-1">Khách Hàng Mua Lại</div>
+            <div class="text-[11px] text-stone-500 mt-0.5">Tin yêu hương vị chuẩn vườn</div>
+          </div>
+
+          <div class="p-5 bg-base-surface rounded-2xl border border-base-border shadow-sm">
+            <div class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-stone-900">1:1</div>
+            <div class="text-xs sm:text-sm font-bold text-stone-800 mt-1">Bao Đổi Trả Miễn Phí</div>
+            <div class="text-[11px] text-stone-500 mt-0.5">Nếu quả sượng, khô nước, hỏng</div>
+          </div>
+
+        </div>
+
+        <!-- Section Title & Subheading -->
+        <div class="text-center max-w-3xl mx-auto pt-14 pb-12">
+          <span class="text-xs uppercase font-extrabold tracking-widest text-primary bg-primary-50 border border-primary/20 px-3.5 py-1.5 rounded-full">
+            Niềm Tin Từ Người Thật - Trái Ngon Thật
+          </span>
+          <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-ink mt-4 leading-tight">
+            Xóa Bỏ Mọi Nỗi Lo Khi <br><span class="text-primary italic">Mua Trái Cây & Đặc Sản Online</span>
+          </h2>
+          <p class="text-stone-600 text-sm sm:text-base mt-3">
+            Chúng tôi hiểu bạn sợ mua phải sầu riêng nhúng thuốc, bưởi khô đầu, hạt điều ỉu mốc. 
+            Tại Vị Đất Đỏ, mỗi kiện trái cây gửi đi đều mang chữ <strong>TÂM</strong> và lời cam kết <strong>BẢO HÀNH TRỌN VẸN</strong> đến từng múi quả.
+          </p>
+        </div>
+
+        <!-- Real Unboxing Video Showcase -->
+        <div class="bg-base-surface rounded-3xl border border-base-border p-6 sm:p-8 lg:p-10 shadow-warm-sm mb-14">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            
+            <!-- Video Mockup Preview (Left) -->
+            <div class="lg:col-span-7 relative group">
+              <div class="relative aspect-video rounded-2xl overflow-hidden bg-stone-900 border-2 border-stone-200 shadow-md">
+                <img 
+                  src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba?auto=format&fit=crop&w=1000&q=80" 
+                  alt="Khách hàng mở hộp Bưởi Tân Triều và Sầu Riêng Ri6 Vị Đất Đỏ" 
+                  class="w-full h-full object-cover opacity-85 group-hover:scale-105 transition-transform duration-500"
+                >
+                <!-- Play Button Overlay -->
+                <div class="absolute inset-0 bg-stone-950/30 flex flex-col items-center justify-center p-4">
+                  <button 
+                    onclick="openFruitVideoModal()" 
+                    aria-label="Phát video unboxing Bưởi và Sầu riêng thực tế"
+                    class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-tr from-primary to-secondary text-white flex items-center justify-center shadow-warm-lg transform group-hover:scale-110 transition-transform duration-300">
+                    <svg class="w-8 h-8 translate-x-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                  </button>
+                  <span class="text-white text-xs sm:text-sm font-bold mt-3 tracking-wide bg-stone-900/70 px-4 py-1.5 rounded-full border border-white/20">
+                    ▶ Xem Clip Tách Múi Sầu Riêng & Thử Bưởi Tại Vườn (4K)
+                  </span>
+                </div>
+                <!-- Timestamp -->
+                <div class="absolute bottom-3 right-3 bg-black/75 text-white text-[11px] font-mono px-2 py-0.5 rounded">
+                  02:15 • Thu Hái Sáng Nay
+                </div>
+              </div>
+            </div>
+
+            <!-- Video Review Highlights (Right) -->
+            <div class="lg:col-span-5 space-y-4">
+              <div class="flex items-center gap-3">
+                <img 
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" 
+                  alt="Chị Thùy Dung - Khách hàng quen Vị Đất Đỏ" 
+                  class="w-12 h-12 rounded-full object-cover border-2 border-primary"
+                >
+                <div>
+                  <h4 class="font-bold text-ink text-sm sm:text-base">Food Reviewer Thùy Dung</h4>
+                  <div class="flex items-center gap-1.5 text-xs text-stone-500">
+                    <span class="text-leaf font-bold">✓ Đã xác thực đơn hàng #VDD-8921</span> • <span>TP. Thủ Đức</span>
+                  </div>
+                </div>
+              </div>
+
+              <blockquote class="italic text-stone-700 text-sm sm:text-base border-l-4 border-primary pl-4 leading-relaxed bg-base/50 py-2 rounded-r">
+                &ldquo;Bưởi Tân Triều ở đây chuẩn vị ngọt thanh, tép bưởi bó chặt không hề bị chảy nước hay the đắng. Sầu riêng Ri6 thì cơm vàng ươm, khui ra múi nào cũng hạt lép kẹp béo ngậy. Ưng nhất là chính sách bao ăn: lỡ quả nào sượng là shop đổi quả mới ngay!&rdquo;
+              </blockquote>
+
+              <ul class="space-y-2 text-xs sm:text-sm text-stone-700">
+                <li class="flex items-center gap-2">
+                  <span class="w-2 h-2 rounded-full bg-leaf"></span>
+                  <strong>Cuống quả tươi xanh:</strong> Trái hái trong vòng 12-24h, không qua ủ khí đá.
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="w-2 h-2 rounded-full bg-leaf"></span>
+                  <strong>Hạt điều rang củi:</strong> Giòn rụm nguyên hạt loại A1, không lẫn hạt lép bể.
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="w-2 h-2 rounded-full bg-leaf"></span>
+                  <strong>Tem truy xuất nguồn gốc QR:</strong> Kiểm tra được từng lô vườn canh tác VietGAP.
+                </li>
+              </ul>
+
+              <div class="pt-2">
+                <a href="#offer" class="text-xs uppercase tracking-wider font-extrabold text-primary hover:text-primary-800 flex items-center gap-1">
+                  Đặt combo giống video để nhận ưu đãi 25% &rarr;
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- 3 Verified Customer Testimonial Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          
+          <!-- Review 1: Bưởi Tân Triều -->
+          <div class="bg-base-surface rounded-2xl p-6 border border-base-border shadow-sm hover:shadow-warm-sm transition-all duration-300 flex flex-col justify-between">
+            <div class="space-y-3">
+              <div class="flex items-center justify-between">
+                <div class="flex text-amber-500 text-sm">★★★★★</div>
+                <span class="text-[11px] bg-leaf-50 text-leaf font-bold px-2 py-0.5 rounded border border-leaf/20">Set 4 Bưởi Tân Triều</span>
+              </div>
+              <p class="text-sm text-stone-700 leading-relaxed italic">
+                &ldquo;Mình đặt 2 thùng bưởi Tân Triều để biếu thông gia và thắp hương rằm. Trái đều tăm tắp, vỏ mỏng dính, tép bưởi hồng hào mọng nước ngọt mát. Ai ăn cũng khen nức nở!&rdquo;
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-5 mt-4 border-t border-base-border">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=80" alt="Chị Minh Hạnh" class="w-10 h-10 rounded-full object-cover border border-primary/30">
+              <div>
+                <div class="text-sm font-bold text-ink">Chị Trần Minh Hạnh</div>
+                <div class="text-[11px] text-stone-500">Giám đốc Nhân sự • Quận 1, TP. HCM</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 2: Sầu riêng Ri6 -->
+          <div class="bg-base-surface rounded-2xl p-6 border border-base-border shadow-sm hover:shadow-warm-sm transition-all duration-300 flex flex-col justify-between">
+            <div class="space-y-3">
+              <div class="flex items-center justify-between">
+                <div class="flex text-amber-500 text-sm">★★★★★</div>
+                <span class="text-[11px] bg-primary-50 text-primary font-bold px-2 py-0.5 rounded border border-primary/20">Sầu Riêng Ri6 Chín Cây</span>
+              </div>
+              <p class="text-sm text-stone-700 leading-relaxed italic">
+                &ldquo;Trước giờ mua sầu online toàn hên xui, nhưng Vị Đất Đỏ làm mình bất ngờ thực sự. Quả 3.2kg khui ra được gần 1.2kg cơm sầu vàng ươm, dẻo quánh, ngọt đậm vị béo ngậy tự nhiên.&rdquo;
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-5 mt-4 border-t border-base-border">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="Anh Hoàng Nam" class="w-10 h-10 rounded-full object-cover border border-primary/30">
+              <div>
+                <div class="text-sm font-bold text-ink">Anh Lê Hoàng Nam</div>
+                <div class="text-[11px] text-stone-500">Kỹ sư Phần mềm • Bình Thạnh, TP. HCM</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3: Hạt điều rang củi Bình Phước -->
+          <div class="bg-base-surface rounded-2xl p-6 border border-base-border shadow-sm hover:shadow-warm-sm transition-all duration-300 flex flex-col justify-between">
+            <div class="space-y-3">
+              <div class="flex items-center justify-between">
+                <div class="flex text-amber-500 text-sm">★★★★★</div>
+                <span class="text-[11px] bg-secondary-50 text-secondary-700 font-bold px-2 py-0.5 rounded border border-secondary/20">Hạt Điều Rang Củi 1kg</span>
+              </div>
+              <p class="text-sm text-stone-700 leading-relaxed italic">
+                &ldquo;Hạt điều cùi dày, thơm nồng mùi củi rang mộc mạc chứ không khét dầu như hàng chợ. Vị mặn rất thanh, ăn một hạt là muốn ăn mãi. Đóng gói hộp thiếc hút chân không rất lịch sự!&rdquo;
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-5 mt-4 border-t border-base-border">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=120&q=80" alt="Chị Ngọc Bích" class="w-10 h-10 rounded-full object-cover border border-primary/30">
+              <div>
+                <div class="text-sm font-bold text-ink">Chị Nguyễn Ngọc Bích</div>
+                <div class="text-[11px] text-stone-500">Chủ Doanh Nghiệp • Biên Hòa, Đồng Nai</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 3: FEATURES / PRODUCT SHOWCASE (INTEREST & DESIRE - KÍCH THÍCH QUAN TÂM & MONG MUỐN)
+         Nội dung CARE:
+         - C: Danh mục nông sản tuyển chọn từ thủ phủ đất đỏ miền Đông (Bưởi Tân Triều, Sầu riêng Ri6, Điều rang muối, Chôm chôm nhãn, Nhãn xuồng).
+         - A: Thưởng thức vị ngọt thơm nguyên bản như hái trực tiếp tại vườn.
+         - R: Giàu dưỡng chất, an toàn chuẩn VietGAP, bao ăn 1 đổi 1 trong 48h.
+         - E: Gửi gắm tình yêu quê hương và sự chăm chút trong từng món quà biếu người thân.
+         ========================================================================= -->
+    <section id="features" class="py-20 bg-base relative overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Header -->
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-xs uppercase font-extrabold tracking-widest text-leaf bg-leaf-50 border border-leaf/20 px-3.5 py-1.5 rounded-full">
+            Đặc Sản Độc Quyền Vùng Đất Đỏ Bazan
+          </span>
+          <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-ink mt-4 leading-tight">
+            Tinh Hoa Thổ Nhưỡng <br>Kết Tinh Trong <span class="text-primary italic">Từng Thức Quả Ngọt Lành</span>
+          </h2>
+          <p class="text-stone-600 text-sm sm:text-base mt-3">
+            Khí hậu nhiệt đới nắng gió hòa cùng lớp đất đỏ bazan giàu khoáng chất miền Đông tạo nên hương vị đậm đà không nơi nào có được. Mỗi loại đặc sản được chăm chút thu hái chuẩn độ chín vàng.
+          </p>
+        </div>
+
+        <!-- 6 Products Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          <!-- Product 1: Bưởi Tân Triều -->
+          <div class="group bg-base-surface rounded-3xl p-6 border border-base-border hover:border-primary/40 shadow-sm hover:shadow-warm-md transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="aspect-[4/3] rounded-2xl overflow-hidden bg-base-card mb-5 relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1577234286642-fc512a5f8f11?auto=format&fit=crop&w=600&q=80" 
+                  alt="Bưởi Tân Triều Đồng Nai Vị Đất Đỏ" 
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                >
+                <span class="absolute top-3 left-3 bg-leaf text-white text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-full shadow-sm">
+                  Đặc Sản Tiến Vua
+                </span>
+              </div>
+              <h3 class="font-heading text-2xl font-bold text-ink group-hover:text-primary transition-colors">Bưởi Đường Tân Triều (Đồng Nai)</h3>
+              <p class="text-stone-600 text-xs sm:text-sm mt-2 leading-relaxed">
+                Vỏ mỏng xanh ngả vàng, tép bưởi mọng nước, róc múi ráo tay. Vị ngọt thanh tao lưu lại hậu vị thơm mát dễ chịu, không the đắng.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2 text-[11px] text-stone-600 font-semibold">
+                <span class="bg-base px-2.5 py-1 rounded-md border border-base-border">✓ Trọng lượng 1.2 - 1.5kg/trái</span>
+                <span class="bg-base px-2.5 py-1 rounded-md border border-base-border">✓ Chuẩn VietGAP 100%</span>
+              </div>
+            </div>
+            <div class="pt-5 mt-5 border-t border-base-border flex items-center justify-between">
+              <div>
+                <span class="text-xs text-stone-400 block">Giá mùa vụ</span>
+                <span class="font-heading text-xl font-bold text-primary">85.000đ <span class="text-xs text-stone-500 font-sans font-normal">/kg</span></span>
+              </div>
+              <a href="#order-form" onclick="selectFruitProduct('Bưởi Đường Tân Triều (Đồng Nai)')" class="bg-base-card hover:bg-primary hover:text-white text-stone-800 text-xs font-bold py-2.5 px-4 rounded-xl border border-base-border hover:border-primary transition-all">
+                Chọn Đặt &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Product 2: Sầu Riêng Ri6 Chín Cây -->
+          <div class="group bg-base-surface rounded-3xl p-6 border-2 border-primary/30 hover:border-primary shadow-sm hover:shadow-warm-md transition-all duration-300 flex flex-col justify-between relative">
+            <span class="absolute -top-3 right-6 bg-primary text-white text-[10px] font-extrabold uppercase tracking-wider px-3 py-1 rounded-full shadow-md">
+              ★ Bán Chạy Nhất (Hot)
+            </span>
+            <div>
+              <div class="aspect-[4/3] rounded-2xl overflow-hidden bg-base-card mb-5 relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1595231712325-9fdee6757038?auto=format&fit=crop&w=600&q=80" 
+                  alt="Sầu Riêng Ri6 Chín Cây Cơm Vàng Hạt Lép" 
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                >
+                <span class="absolute bottom-3 left-3 bg-primary text-white text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-full shadow-sm">
+                  Bao Ăn 1 Đổi 1
+                </span>
+              </div>
+              <h3 class="font-heading text-2xl font-bold text-ink group-hover:text-primary transition-colors">Sầu Riêng Ri6 Chín Cây</h3>
+              <p class="text-stone-600 text-xs sm:text-sm mt-2 leading-relaxed">
+                Hái đúng độ già chín cây tự nhiên, không nhúng thuốc kích chín. Cơm vàng ươm, hạt lép kẹp, dẻo quánh, vị ngọt béo ngậy thơm lừng.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2 text-[11px] text-stone-600 font-semibold">
+                <span class="bg-base px-2.5 py-1 rounded-md border border-base-border">✓ Bao sượng - Đổi mới 100%</span>
+                <span class="bg-base px-2.5 py-1 rounded-md border border-base-border">✓ Khui sẵn hoặc nguyên quả</span>
+              </div>
+            </div>
+            <div class="pt-5 mt-5 border-t border-base-border flex items-center justify-between">
+              <div>
+                <span class="text-xs text-stone-400 block">Giá mùa vụ</span>
+                <span class="font-heading text-xl font-bold text-primary">145.000đ <span class="text-xs text-stone-500 font-sans font-normal">/kg</span></span>
+              </div>
+              <a href="#order-form" onclick="selectFruitProduct('Sầu Riêng Ri6 Chín Cây')" class="bg-primary hover:bg-primary-700 text-white text-xs font-bold py-2.5 px-4 rounded-xl shadow-warm-sm transition-all">
+                Chọn Đặt &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Product 3: Hạt Điều Rang Củi Bình Phước -->
+          <div class="group bg-base-surface rounded-3xl p-6 border border-base-border hover:border-primary/40 shadow-sm hover:shadow-warm-md transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="aspect-[4/3] rounded-2xl overflow-hidden bg-base-card mb-5 relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1509914398867-0d5656627096?auto=format&fit=crop&w=600&q=80" 
+                  alt="Hạt Điều Rang Củi Vỏ Lụa Bình Phước" 
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                >
+                <span class="absolute top-3 left-3 bg-secondary text-white text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-full shadow-sm">
+                  Chỉ Dẫn Địa Lý OCOP
+                </span>
+              </div>
+              <h3 class="font-heading text-2xl font-bold text-ink group-hover:text-primary transition-colors">Hạt Điều Rang Muối Vỏ Lụa</h3>
+              <p class="text-stone-600 text-xs sm:text-sm mt-2 leading-relaxed">
+                Hạt điều loại A1 to tròn đều đặn, rang củi thủ công theo bí quyết gia truyền giữ trọn lớp vỏ lụa thơm bùi, giòn rụm béo ngậy.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2 text-[11px] text-stone-600 font-semibold">
+                <span class="bg-base px-2.5 py-1 rounded-md border border-base-border">✓ Hũ 500g hút chân không</span>
+                <span class="bg-base px-2.5 py-1 rounded-md border border-base-border">✓ Không hôi dầu, giòn lâu</span>
+              </div>
+            </div>
+            <div class="pt-5 mt-5 border-t border-base-border flex items-center justify-between">
+              <div>
+                <span class="text-xs text-stone-400 block">Hũ 500g</span>
+                <span class="font-heading text-xl font-bold text-primary">165.000đ <span class="text-xs text-stone-500 font-sans font-normal">/hũ</span></span>
+              </div>
+              <a href="#order-form" onclick="selectFruitProduct('Hạt Điều Rang Muối Vỏ Lụa')" class="bg-base-card hover:bg-primary hover:text-white text-stone-800 text-xs font-bold py-2.5 px-4 rounded-xl border border-base-border hover:border-primary transition-all">
+                Chọn Đặt &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Product 4: Chôm Chôm Nhãn Long Khánh -->
+          <div class="group bg-base-surface rounded-3xl p-6 border border-base-border hover:border-primary/40 shadow-sm hover:shadow-warm-md transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="aspect-[4/3] rounded-2xl overflow-hidden bg-base-card mb-5 relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=600&q=80" 
+                  alt="Chôm Chôm Nhãn Long Khánh Tươi Giòn Róc Hạt" 
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                >
+                <span class="absolute top-3 left-3 bg-leaf text-white text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-full shadow-sm">
+                  Hái Sáng Giao Chiều
+                </span>
+              </div>
+              <h3 class="font-heading text-2xl font-bold text-ink group-hover:text-primary transition-colors">Chôm Chôm Nhãn Long Khánh</h3>
+              <p class="text-stone-600 text-xs sm:text-sm mt-2 leading-relaxed">
+                Vỏ mỏng râu ngắn ngả vàng xanh, cùi dày giòn sần sật, róc hạt 100%, vị ngọt lịm thơm như mùi đường phèn tự nhiên.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2 text-[11px] text-stone-600 font-semibold">
+                <span class="bg-base px-2.5 py-1 rounded-md border border-base-border">✓ Tươi nguyên cành lá</span>
+                <span class="bg-base px-2.5 py-1 rounded-md border border-base-border">✓ Không chất bảo quản</span>
+              </div>
+            </div>
+            <div class="pt-5 mt-5 border-t border-base-border flex items-center justify-between">
+              <div>
+                <span class="text-xs text-stone-400 block">Giá mùa vụ</span>
+                <span class="font-heading text-xl font-bold text-primary">55.000đ <span class="text-xs text-stone-500 font-sans font-normal">/kg</span></span>
+              </div>
+              <a href="#order-form" onclick="selectFruitProduct('Chôm Chôm Nhãn Long Khánh')" class="bg-base-card hover:bg-primary hover:text-white text-stone-800 text-xs font-bold py-2.5 px-4 rounded-xl border border-base-border hover:border-primary transition-all">
+                Chọn Đặt &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Product 5: Nhãn Xuồng Cơm Vàng -->
+          <div class="group bg-base-surface rounded-3xl p-6 border border-base-border hover:border-primary/40 shadow-sm hover:shadow-warm-md transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="aspect-[4/3] rounded-2xl overflow-hidden bg-base-card mb-5 relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1546548970-71785318a17b?auto=format&fit=crop&w=600&q=80" 
+                  alt="Nhãn Xuồng Cơm Vàng Vị Đất Đỏ" 
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                >
+                <span class="absolute top-3 left-3 bg-secondary text-white text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-full shadow-sm">
+                  Cơm Dày Giòn Ngọt
+                </span>
+              </div>
+              <h3 class="font-heading text-2xl font-bold text-ink group-hover:text-primary transition-colors">Nhãn Xuồng Cơm Vàng Nam Bộ</h3>
+              <p class="text-stone-600 text-xs sm:text-sm mt-2 leading-relaxed">
+                Trái to căng tròn, cơm dày màu vàng ngà, ăn giòn rụm và ráo nước, vị ngọt thanh mát không ngấy, hạt nhỏ tiêu.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2 text-[11px] text-stone-600 font-semibold">
+                <span class="bg-base px-2.5 py-1 rounded-md border border-base-border">✓ Trái tuyển chọn loại 1</span>
+                <span class="bg-base px-2.5 py-1 rounded-md border border-base-border">✓ Tươi ngọt tự nhiên</span>
+              </div>
+            </div>
+            <div class="pt-5 mt-5 border-t border-base-border flex items-center justify-between">
+              <div>
+                <span class="text-xs text-stone-400 block">Giá mùa vụ</span>
+                <span class="font-heading text-xl font-bold text-primary">75.000đ <span class="text-xs text-stone-500 font-sans font-normal">/kg</span></span>
+              </div>
+              <a href="#order-form" onclick="selectFruitProduct('Nhãn Xuồng Cơm Vàng Nam Bộ')" class="bg-base-card hover:bg-primary hover:text-white text-stone-800 text-xs font-bold py-2.5 px-4 rounded-xl border border-base-border hover:border-primary transition-all">
+                Chọn Đặt &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Product 6: Mật Ong Rừng Hoa Nhãn & Hoa Trái -->
+          <div class="group bg-base-surface rounded-3xl p-6 border border-base-border hover:border-primary/40 shadow-sm hover:shadow-warm-md transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="aspect-[4/3] rounded-2xl overflow-hidden bg-base-card mb-5 relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=600&q=80" 
+                  alt="Mật Ong Rừng Hoa Trái Miền Đông" 
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                >
+                <span class="absolute top-3 left-3 bg-leaf text-white text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-full shadow-sm">
+                  100% Nguyên Chất
+                </span>
+              </div>
+              <h3 class="font-heading text-2xl font-bold text-ink group-hover:text-primary transition-colors">Mật Ong Hoa Trái Miền Đông</h3>
+              <p class="text-stone-600 text-xs sm:text-sm mt-2 leading-relaxed">
+                Thu hoạch từ những vườn nhãn, chôm chôm và hoa bưởi bạt ngàn, màu hổ phách vàng óng, thơm nồng mùi hoa quả, đậm đặc bổ dưỡng.
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2 text-[11px] text-stone-600 font-semibold">
+                <span class="bg-base px-2.5 py-1 rounded-md border border-base-border">✓ Chai thủy tinh 500ml</span>
+                <span class="bg-base px-2.5 py-1 rounded-md border border-base-border">✓ Không pha đường hay hóa chất</span>
+              </div>
+            </div>
+            <div class="pt-5 mt-5 border-t border-base-border flex items-center justify-between">
+              <div>
+                <span class="text-xs text-stone-400 block">Chai 500ml</span>
+                <span class="font-heading text-xl font-bold text-primary">195.000đ <span class="text-xs text-stone-500 font-sans font-normal">/chai</span></span>
+              </div>
+              <a href="#order-form" onclick="selectFruitProduct('Mật Ong Hoa Trái Miền Đông')" class="bg-base-card hover:bg-primary hover:text-white text-stone-800 text-xs font-bold py-2.5 px-4 rounded-xl border border-base-border hover:border-primary transition-all">
+                Chọn Đặt &rarr;
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Comparison Table: Vị Đất Đỏ vs Trái Cây Trôi Nổi Ngoài Chợ -->
+        <div class="mt-16 bg-base-surface rounded-3xl border border-base-border p-6 sm:p-8 lg:p-10 shadow-sm">
+          <div class="text-center max-w-xl mx-auto mb-8">
+            <h3 class="font-heading text-2xl sm:text-3xl font-bold text-ink">Bảng So Sánh Tiêu Chuẩn Nông Sản</h3>
+            <p class="text-xs sm:text-sm text-stone-600 mt-1">Tại sao hàng ngàn gia đình chọn mua trực tiếp từ vườn Vị Đất Đỏ?</p>
+          </div>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-xs sm:text-sm border-collapse">
+              <thead>
+                <tr class="border-b border-base-border text-stone-500 uppercase tracking-wider text-[11px]">
+                  <th class="py-3 px-4 font-bold">Tiêu chí chất lượng</th>
+                  <th class="py-3 px-4 text-primary font-extrabold text-sm bg-primary-50/80 rounded-t-xl">VỊ ĐẤT ĐỎ (Chính Vườn)</th>
+                  <th class="py-3 px-4 text-stone-500 font-normal">Trái cây trôi nổi ngoài chợ</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-base-border text-stone-700">
+                <tr>
+                  <td class="py-3.5 px-4 font-semibold">Nguồn gốc & Canh tác</td>
+                  <td class="py-3.5 px-4 font-bold text-leaf bg-primary-50/40">100% Vườn đất đỏ VietGAP, có mã QR truy xuất</td>
+                  <td class="py-3.5 px-4 text-stone-500">Thu gom thương lái, không rõ xuất xứ</td>
+                </tr>
+                <tr>
+                  <td class="py-3.5 px-4 font-semibold">Thời điểm thu hái</td>
+                  <td class="py-3.5 px-4 font-bold text-primary bg-primary-50/40">Chín cây tự nhiên, hái sáng sớm giao trong ngày</td>
+                  <td class="py-3.5 px-4 text-stone-500">Hái non, ủ ép thuốc kích chín, nằm kho dài ngày</td>
+                </tr>
+                <tr>
+                  <td class="py-3.5 px-4 font-semibold">Chính sách cam kết</td>
+                  <td class="py-3.5 px-4 font-bold text-ink bg-primary-50/40">Bao ăn 1 đổi 1 trong 48h nếu sượng hoặc hỏng</td>
+                  <td class="py-3.5 px-4 text-stone-500">Mua đứt bán đoạn, bổ ra hỏng tự chịu</td>
+                </tr>
+                <tr>
+                  <td class="py-3.5 px-4 font-semibold">Đóng gói & Bảo quản</td>
+                  <td class="py-3.5 px-4 font-bold text-secondary-700 bg-primary-50/40">Thùng carton lót rơm mộc, giao mát giữ trọn vị</td>
+                  <td class="py-3.5 px-4 text-stone-500">Túi nilon hấp hơi, dễ dập thối và biến chất</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 4: OFFERS, COMBOS & PRICING (ACTION - TẠO ĐỘNG LỰC MUA HÀNG NGAY)
+         Nội dung CARE:
+         - Context: Ưu đãi mùa thu hoạch rộ đặc sản miền Đông, giảm 25% + quà tặng đặc biệt.
+         - Action: Đặt hàng hôm nay để nhận trọn vẹn ưu đãi kèm freeship và hũ mật ong/hạt điều.
+         - Result: Thưởng thức trọn vẹn đặc sản tươi ngon nhất với mức giá tận gốc nhà vườn.
+         - Example: 3 combo quà biếu gia đình & Form đặt hàng trực tiếp tiện lợi.
+         ========================================================================= -->
+    <section id="offer" class="py-20 bg-base-card/50 border-t border-base-border relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Flash Deal Urgency Card with Countdown Timer -->
+        <div class="max-w-4xl mx-auto bg-gradient-to-br from-primary via-primary-700 to-secondary text-white rounded-3xl p-6 sm:p-10 shadow-warm-lg mb-16 text-center relative overflow-hidden">
+          
+          <div class="absolute -right-20 -top-20 w-64 h-64 rounded-full bg-secondary-light/20 blur-2xl pointer-events-none"></div>
+          <div class="absolute -left-20 -bottom-20 w-64 h-64 rounded-full bg-leaf/30 blur-2xl pointer-events-none"></div>
+
+          <div class="relative z-10 space-y-4">
+            
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/15 text-white text-xs font-bold tracking-wider uppercase backdrop-blur-sm border border-white/20">
+              <span class="w-2 h-2 rounded-full bg-secondary-light animate-ping"></span>
+              Đại Tiệc Mùa Mới - Số Lượng Có Hạn
+            </div>
+
+            <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">
+              Giảm Ngay 25% Cho 50 Đơn Hàng Đầu Tiên
+            </h2>
+
+            <p class="text-white/90 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
+              Tặng kèm <strong class="text-secondary-light">01 Hũ Hạt Điều Rang Củi 250g</strong> (hoặc Hũ Mật Ong Hoa Nhãn) trị giá 120.000đ + Miễn phí vận chuyển nội thành cho đơn từ 499k.
+            </p>
+
+            <!-- Realtime Countdown Timer Block -->
+            <div class="pt-2">
+              <div class="text-xs uppercase tracking-widest text-white/80 font-bold mb-3">Ưu đãi mùa hái sẽ khép lại sau:</div>
+              <div class="flex items-center justify-center gap-3 sm:gap-4 font-mono">
+                
+                <div class="bg-black/35 backdrop-blur-md px-4 sm:px-5 py-3 rounded-2xl border border-white/20 min-w-[70px] sm:min-w-[85px]">
+                  <span id="countdownHours" class="text-2xl sm:text-4xl font-extrabold text-secondary-light block">05</span>
+                  <span class="text-[10px] sm:text-xs text-white/70 uppercase font-sans">Giờ</span>
+                </div>
+
+                <span class="text-2xl sm:text-4xl font-bold text-secondary-light">:</span>
+
+                <div class="bg-black/35 backdrop-blur-md px-4 sm:px-5 py-3 rounded-2xl border border-white/20 min-w-[70px] sm:min-w-[85px]">
+                  <span id="countdownMinutes" class="text-2xl sm:text-4xl font-extrabold text-secondary-light block">42</span>
+                  <span class="text-[10px] sm:text-xs text-white/70 uppercase font-sans">Phút</span>
+                </div>
+
+                <span class="text-2xl sm:text-4xl font-bold text-secondary-light">:</span>
+
+                <div class="bg-black/35 backdrop-blur-md px-4 sm:px-5 py-3 rounded-2xl border border-white/20 min-w-[70px] sm:min-w-[85px]">
+                  <span id="countdownSeconds" class="text-2xl sm:text-4xl font-extrabold text-secondary-light block">18</span>
+                  <span class="text-[10px] sm:text-xs text-white/70 uppercase font-sans">Giây</span>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Limited Stock Progress Bar -->
+            <div class="max-w-md mx-auto pt-4">
+              <div class="flex justify-between text-xs text-white/90 font-semibold mb-1.5">
+                <span>Suất quà tặng đặc biệt:</span>
+                <span class="text-secondary-light font-extrabold">Đã đặt 41 / 50 phần</span>
+              </div>
+              <div class="w-full h-2.5 bg-black/40 rounded-full overflow-hidden p-0.5 border border-white/20">
+                <div class="h-full bg-gradient-to-r from-secondary-light to-amber-300 rounded-full transition-all duration-500" style="width: 82%"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- 3 Popular Gift & Family Combo Packages -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch mb-16">
+          
+          <!-- Combo 1: Thanh Mát Đất Đỏ -->
+          <div class="bg-base-surface rounded-3xl border border-base-border p-6 sm:p-8 flex flex-col justify-between hover:shadow-warm-sm transition-all duration-300">
+            <div>
+              <div class="aspect-[4/3] rounded-2xl overflow-hidden mb-6 bg-base-card">
+                <img src="https://images.unsplash.com/photo-1577234286642-fc512a5f8f11?auto=format&fit=crop&w=600&q=80" alt="Combo Thanh Mát Đất Đỏ" class="w-full h-full object-cover">
+              </div>
+              <div class="text-xs uppercase font-extrabold tracking-wider text-leaf mb-1">Set Gia Đình Thư Thái</div>
+              <h3 class="font-heading text-2xl font-bold text-ink">Combo "Thanh Mát Đất Đỏ"</h3>
+              <p class="text-stone-500 text-xs mt-1">2 Quả Bưởi Tân Triều tuyển chọn + 1 Hũ Hạt Điều rang củi 500g.</p>
+              
+              <div class="mt-4 pt-4 border-t border-base-border flex items-baseline gap-3">
+                <span class="font-heading text-3xl font-bold text-primary">325.000đ</span>
+                <span class="text-sm text-stone-400 line-through">420.000đ</span>
+                <span class="text-xs bg-primary-100 text-primary font-bold px-2 py-0.5 rounded">-25%</span>
+              </div>
+
+              <ul class="mt-5 space-y-2.5 text-xs text-stone-700">
+                <li class="flex items-center gap-2">✓ <strong>Bao ăn 1 đổi 1 trong 48h</strong></li>
+                <li class="flex items-center gap-2">✓ Bưởi mọng nước, tép giòn ngọt mát</li>
+                <li class="flex items-center gap-2">✓ Tặng kèm dao bổ bưởi chuyên dụng</li>
+                <li class="flex items-center gap-2">✓ Giao hỏa tốc 2 giờ nội thành</li>
+              </ul>
+            </div>
+
+            <div class="pt-6 mt-6 border-t border-base-border">
+              <a href="#order-form" onclick="selectComboPackage('Combo Thanh Mát Đất Đỏ - 325.000đ')" class="block text-center w-full bg-base hover:bg-primary hover:text-white text-stone-800 font-bold py-3 rounded-xl border border-base-border hover:border-primary transition-colors text-sm">
+                Chọn Combo Này &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Combo 2: Tinh Hoa Miền Đông (BEST SELLER) -->
+          <div class="bg-base-surface rounded-3xl border-2 border-primary p-6 sm:p-8 flex flex-col justify-between shadow-warm-md relative transform lg:-translate-y-3">
+            
+            <div class="absolute -top-3.5 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-primary to-secondary text-white text-[11px] font-extrabold uppercase tracking-wider py-1 px-4 rounded-full shadow-md">
+              ★ Được Đặt Mua Nhiều Nhất (Best Seller)
+            </div>
+
+            <div>
+              <div class="aspect-[4/3] rounded-2xl overflow-hidden mb-6 bg-base-card relative">
+                <img src="https://images.unsplash.com/photo-1619566636858-adf3ef46400b?auto=format&fit=crop&w=600&q=80" alt="Combo Tinh Hoa Miền Đông" class="w-full h-full object-cover">
+                <span class="absolute bottom-2.5 right-2.5 bg-ink/75 text-white text-[10px] px-2 py-0.5 rounded-md">Trái Cây & Hạt Tuyển</span>
+              </div>
+              <div class="text-xs uppercase font-extrabold tracking-wider text-primary mb-1">Set Quà Biếu Cao Cấp</div>
+              <h3 class="font-heading text-2xl font-bold text-ink">Combo "Tinh Hoa Miền Đông"</h3>
+              <p class="text-stone-500 text-xs mt-1">1 Trái Sầu Riêng Ri6 chín cây (2.5-3kg) + 2 Bưởi Tân Triều + 1 Hũ Điều 500g.</p>
+              
+              <div class="mt-4 pt-4 border-t border-base-border flex items-baseline gap-3">
+                <span class="font-heading text-3xl font-bold text-primary">695.000đ</span>
+                <span class="text-sm text-stone-400 line-through">920.000đ</span>
+                <span class="text-xs bg-primary text-white font-bold px-2 py-0.5 rounded">-25%</span>
+              </div>
+
+              <ul class="mt-5 space-y-2.5 text-xs text-stone-800">
+                <li class="flex items-center gap-2 text-primary font-bold">
+                  🎁 <span>Tặng Hũ Mật Ong Hoa Nhãn Rừng Trị Giá 120.000đ</span>
+                </li>
+                <li class="flex items-center gap-2">✓ <strong>Bao ăn sầu riêng cơm vàng từng múi</strong></li>
+                <li class="flex items-center gap-2">✓ Hộp quà carton quai xách sang trọng biếu tặng</li>
+                <li class="flex items-center gap-2">✓ Miễn phí vận chuyển toàn TP.HCM & Biên Hòa</li>
+                <li class="flex items-center gap-2">✓ Kiểm tra hàng & ưng ý mới thanh toán</li>
+              </ul>
+            </div>
+
+            <div class="pt-6 mt-6 border-t border-base-border">
+              <a href="#order-form" onclick="selectComboPackage('Combo Tinh Hoa Miền Đông (Tặng Mật Ong) - 695.000đ')" class="block text-center w-full bg-primary hover:bg-primary-700 text-white font-extrabold py-3.5 rounded-xl shadow-warm-sm hover:shadow-warm-md transition-all duration-300 text-sm uppercase tracking-wide">
+                Đặt Ngay Nhận Trọn Quà &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Combo 3: Đại Tiệc Vườn Đất Đỏ -->
+          <div class="bg-base-surface rounded-3xl border border-base-border p-6 sm:p-8 flex flex-col justify-between hover:shadow-warm-sm transition-all duration-300">
+            <div>
+              <div class="aspect-[4/3] rounded-2xl overflow-hidden mb-6 bg-base-card">
+                <img src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba?auto=format&fit=crop&w=600&q=80" alt="Combo Đại Tiệc Vườn Đất Đỏ" class="w-full h-full object-cover">
+              </div>
+              <div class="text-xs uppercase font-extrabold tracking-wider text-secondary-700 mb-1">Set Lễ Hội & Liên Hoan</div>
+              <h3 class="font-heading text-2xl font-bold text-ink">Combo "Đại Tiệc Vườn Đất Đỏ"</h3>
+              <p class="text-stone-500 text-xs mt-1">Sầu Riêng Ri6 + 4 Bưởi Tân Triều + 2kg Chôm Chôm Nhãn + 2 Hũ Hạt Điều.</p>
+              
+              <div class="mt-4 pt-4 border-t border-base-border flex items-baseline gap-3">
+                <span class="font-heading text-3xl font-bold text-primary">1.180.000đ</span>
+                <span class="text-sm text-stone-400 line-through">1.550.000đ</span>
+                <span class="text-xs bg-primary-100 text-primary font-bold px-2 py-0.5 rounded">-25%</span>
+              </div>
+
+              <ul class="mt-5 space-y-2.5 text-xs text-stone-700">
+                <li class="flex items-center gap-2 text-primary font-bold">🎁 Tặng Giỏ Mây Đan Thủ Công trị giá 180k</li>
+                <li class="flex items-center gap-2">✓ <strong>Bao ăn 1 đổi 1 tận nơi trong 48h</strong></li>
+                <li class="flex items-center gap-2">✓ Đủ món ngon đãi tiệc 8-12 người</li>
+                <li class="flex items-center gap-2">✓ Giao mát giữ tươi lạnh tận bàn tiệc</li>
+              </ul>
+            </div>
+
+            <div class="pt-6 mt-6 border-t border-base-border">
+              <a href="#order-form" onclick="selectComboPackage('Combo Đại Tiệc Vườn Đất Đỏ (Giỏ Mây) - 1.180.000đ')" class="block text-center w-full bg-base hover:bg-primary hover:text-white text-stone-800 font-bold py-3 rounded-xl border border-base-border hover:border-primary transition-colors text-sm">
+                Chọn Combo Đại Tiệc &rarr;
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ================= FAST ORDER FORM ================= -->
+        <div id="order-form" class="max-w-3xl mx-auto bg-base-surface rounded-3xl border border-base-border p-6 sm:p-10 shadow-warm-md">
+          
+          <div class="text-center mb-8">
+            <span class="text-xs font-extrabold uppercase tracking-wider text-primary bg-primary-50 px-3.5 py-1.5 rounded-full border border-primary/20">
+              Biểu Mẫu Đặt Nông Sản Tươi Hái Trong Ngày
+            </span>
+            <h3 class="font-heading text-3xl font-bold text-ink mt-3">Điền Thông Tin Nhận Ưu Đãi 25%</h3>
+            <p class="text-xs sm:text-sm text-stone-600 mt-1">
+              Nhà vườn Vị Đất Đỏ sẽ gọi lại xác nhận số lượng, trọng lượng trái và giờ hái giao thuận tiện nhất cho bạn.
+            </p>
+          </div>
+
+          <form id="fruitOrderForm" onsubmit="handleFruitFormSubmit(event)" class="space-y-5">
+            
+            <!-- Package / Product Selection -->
+            <div>
+              <label for="orderSelection" class="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-1.5">
+                Gói Đặc Sản Bạn Đặt Mua *
+              </label>
+              <select id="orderSelection" required class="w-full bg-base border border-stone-300 rounded-xl px-4 py-3 text-sm text-stone-800 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary font-medium">
+                <option value="Combo Tinh Hoa Miền Đông (Tặng Mật Ong) - 695.000đ">★ [Bán Chạy Nhất] Combo "Tinh Hoa Miền Đông" (Tặng Mật Ong) - 695.000đ</option>
+                <option value="Combo Thanh Mát Đất Đỏ - 325.000đ">Combo "Thanh Mát Đất Đỏ" (Bưởi + Điều) - 325.000đ</option>
+                <option value="Combo Đại Tiệc Vườn Đất Đỏ (Giỏ Mây) - 1.180.000đ">Combo "Đại Tiệc Vườn Đất Đỏ" (Full Đặc Sản) - 1.180.000đ</option>
+                <option value="Bưởi Đường Tân Triều (Đồng Nai) - 85.000đ/kg">Bưởi Đường Tân Triều (Đồng Nai) - 85.000đ/kg</option>
+                <option value="Sầu Riêng Ri6 Chín Cây - 145.000đ/kg">Sầu Riêng Ri6 Chín Cây (Bao Ăn 1 Đổi 1) - 145.000đ/kg</option>
+                <option value="Hạt Điều Rang Muối Vỏ Lụa - 165.000đ/hũ">Hạt Điều Rang Muối Vỏ Lụa Bình Phước - 165.000đ/hũ 500g</option>
+              </select>
+            </div>
+
+            <!-- Customer Name & Phone -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label for="buyerName" class="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-1.5">
+                  Họ và Tên Của Bạn *
+                </label>
+                <input type="text" id="buyerName" required placeholder="Ví dụ: Hoàng Thu Trang" class="w-full bg-base border border-stone-300 rounded-xl px-4 py-3 text-sm text-stone-800 placeholder-stone-400 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary">
+              </div>
+              <div>
+                <label for="buyerPhone" class="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-1.5">
+                  Số Điện Thoại Nhận Hàng *
+                </label>
+                <input type="tel" id="buyerPhone" required placeholder="Ví dụ: 0988 123 456" pattern="[0-9]{10,11}" class="w-full bg-base border border-stone-300 rounded-xl px-4 py-3 text-sm text-stone-800 placeholder-stone-400 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary">
+              </div>
+            </div>
+
+            <!-- Delivery Address -->
+            <div>
+              <label for="buyerAddress" class="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-1.5">
+                Địa Chỉ Giao Hàng Chi Tiết *
+              </label>
+              <input type="text" id="buyerAddress" required placeholder="Số nhà, Tên đường, Phường/Xã, Quận/Huyện, Tỉnh/Thành phố..." class="w-full bg-base border border-stone-300 rounded-xl px-4 py-3 text-sm text-stone-800 placeholder-stone-400 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary">
+            </div>
+
+            <!-- Delivery Preference Note -->
+            <div>
+              <label for="buyerNote" class="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-1.5">
+                Ghi Chú Đơn Hàng (Tách múi sẵn, chọn trái bưởi da xanh/cam, giờ giao...)
+              </label>
+              <textarea id="buyerNote" rows="2" placeholder="Ví dụ: Sầu riêng tách múi đóng hộp sẵn giúp mình, giao trước 17h chiều nay..." class="w-full bg-base border border-stone-300 rounded-xl px-4 py-2.5 text-sm text-stone-800 placeholder-stone-400 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="w-full bg-gradient-to-r from-primary to-secondary hover:from-primary-700 hover:to-secondary-700 text-white py-4 rounded-xl font-bold text-base uppercase tracking-wider shadow-warm-md hover:shadow-warm-lg transition-all duration-300 flex items-center justify-center gap-2">
+              <span>XÁC NHẬN ĐẶT HÀNG - GIỮ ƯU ĐÃI 25% NGAY</span>
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </button>
+
+            <!-- Reassurance footer under form -->
+            <div class="flex flex-wrap items-center justify-center gap-4 text-xs text-stone-500 pt-2 font-medium">
+              <span class="flex items-center gap-1">🔒 Bảo mật tuyệt đối</span>
+              <span>•</span>
+              <span class="flex items-center gap-1">📦 Mở hộp nếm thử trước khi trả tiền</span>
+              <span>•</span>
+              <span class="flex items-center gap-1">🛡️ Bao ăn 1 đổi 1 trong 48h</span>
+            </div>
+
+          </form>
+
+          <!-- Order Success Alert -->
+          <div id="orderSuccessBox" class="hidden mt-6 p-5 rounded-2xl bg-leaf-50 border border-leaf/30 text-stone-800">
+            <div class="flex items-start gap-3">
+              <div class="w-7 h-7 rounded-full bg-leaf text-white flex items-center justify-center flex-shrink-0 mt-0.5 font-bold">
+                ✓
+              </div>
+              <div>
+                <h4 class="font-bold text-leaf text-base">Đã Tiếp Nhận Đơn Hàng Thành Công!</h4>
+                <p class="text-xs text-stone-700 mt-1">
+                  Cảm ơn quý khách đã tin chọn đặc sản <strong>Vị Đất Đỏ</strong>. Đội ngũ nhà vườn sẽ liên hệ lại qua số điện thoại của quý khách trong vòng 10 phút để báo giờ giao hàng tươi hái sớm nhất.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 5: FOOTER & TRUST (REASSURANCE - CUNG CẤP THÔNG TIN AN TOÀN)
+         Nội dung CARE:
+         - Context: Vị Đất Đỏ luôn đồng hành cùng nhà vườn địa phương và khách hàng 24/7.
+         - Action: Kết nối cộng đồng yêu nông sản sạch, chia sẻ văn hóa thổ nhưỡng miền Đông.
+         - Result: Minh bạch tuyệt đối về chứng nhận VietGAP, địa chỉ nhà vườn, chính sách 1 đổi 1.
+         - Example: Trụ cột cam kết vàng, showroom trải nghiệm, hotline đặt hàng nhanh.
+         ========================================================================= -->
+    <footer id="footer" class="bg-[#1F1712] text-stone-300 pt-16 pb-12 border-t border-stone-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- 4 Pillars of Reassurance -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pb-14 border-b border-stone-800">
+          
+          <div class="flex items-start gap-3.5">
+            <div class="w-11 h-11 rounded-xl bg-leaf/20 text-leaf-100 flex items-center justify-center flex-shrink-0">
+              <svg class="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              </svg>
+            </div>
+            <div>
+              <h4 class="text-white font-bold text-sm">Bao Ăn 1 Đổi 1 Trong 48H</h4>
+              <p class="text-xs text-stone-400 mt-0.5">Sượng, lạt nước, dập thối đổi quả mới tận nhà không mất phí.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3.5">
+            <div class="w-11 h-11 rounded-xl bg-primary/20 text-primary-100 flex items-center justify-center flex-shrink-0">
+              <svg class="w-6 h-6 text-amber-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <div>
+              <h4 class="text-white font-bold text-sm">Hái Tươi & Giao Nhanh 2H</h4>
+              <p class="text-xs text-stone-400 mt-0.5">Trái hái sáng sớm tại vườn, bảo quản mát giao ngay nội thành.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3.5">
+            <div class="w-11 h-11 rounded-xl bg-secondary/20 text-secondary-100 flex items-center justify-center flex-shrink-0">
+              <svg class="w-6 h-6 text-secondary-light" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/>
+              </svg>
+            </div>
+            <div>
+              <h4 class="text-white font-bold text-sm">Kiểm Tra Ngon Mới Trả</h4>
+              <p class="text-xs text-stone-400 mt-0.5">Mở hộp kiểm tra độ tươi mọng và cân nặng trước khi thanh toán.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3.5">
+            <div class="w-11 h-11 rounded-xl bg-leaf/20 text-leaf-100 flex items-center justify-center flex-shrink-0">
+              <svg class="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 01-9-9c0-4.97 4.03-9 9-9 4.14 0 7.63 2.8 8.67 6.64A7 7 0 0112 21zm0 0v-8m0 0l-3 3m3-3l3 3"/>
+              </svg>
+            </div>
+            <div>
+              <h4 class="text-white font-bold text-sm">Chuẩn VietGAP & OCOP</h4>
+              <p class="text-xs text-stone-400 mt-0.5">100% không chất kích chín, an lành tuyệt đối cho sức khỏe.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Main Footer Links & Brand Story -->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-10 py-12">
+          
+          <!-- Brand Story Column -->
+          <div class="md:col-span-5 space-y-4">
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white shadow-sm">
+                <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 01-9-9c0-4.97 4.03-9 9-9 4.14 0 7.63 2.8 8.67 6.64A7 7 0 0112 21zm0 0v-8m0 0l-3 3m3-3l3 3" />
+                </svg>
+              </div>
+              <div class="flex flex-col">
+                <span class="font-heading text-2xl font-bold tracking-tight text-white leading-none">VỊ ĐẤT ĐỎ</span>
+                <span class="text-[10px] tracking-[0.25em] text-emerald-400 font-bold uppercase mt-1">Đặc Sản Miền Đông Nam Bộ</span>
+              </div>
+            </div>
+
+            <p class="text-stone-400 text-xs sm:text-sm leading-relaxed max-w-sm">
+              Sứ mệnh của Vị Đất Đỏ là kết nối trực tiếp những người nông dân tâm huyết trên dải đất đỏ bazan Miền Đông với bàn ăn của mỗi gia đình Việt, gìn giữ trọn vẹn vị ngon thuần khiết và bổ dưỡng của đất mẹ.
+            </p>
+
+            <!-- Social Links -->
+            <div class="flex items-center gap-3 pt-2">
+              <a href="#" aria-label="Facebook Fanpage" class="w-9 h-9 rounded-full bg-stone-800 hover:bg-primary text-stone-300 hover:text-white flex items-center justify-center transition-colors">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+              </a>
+              <a href="#" aria-label="TikTok Shop" class="w-9 h-9 rounded-full bg-stone-800 hover:bg-primary text-stone-300 hover:text-white flex items-center justify-center transition-colors">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.24 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+              </a>
+              <a href="#" aria-label="YouTube" class="w-9 h-9 rounded-full bg-stone-800 hover:bg-primary text-stone-300 hover:text-white flex items-center justify-center transition-colors">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Policies & Warranty Column -->
+          <div class="md:col-span-3 space-y-3">
+            <h4 class="text-white text-sm font-bold uppercase tracking-wider">Chính Sách & Hỗ Trợ</h4>
+            <ul class="space-y-2 text-xs text-stone-400">
+              <li><a href="#offer" class="hover:text-amber-300 transition-colors">Chính sách bao ăn 1 đổi 1 trong 48h</a></li>
+              <li><a href="#offer" class="hover:text-amber-300 transition-colors">Quy trình vận chuyển bảo quản lạnh</a></li>
+              <li><a href="#features" class="hover:text-amber-300 transition-colors">Hướng dẫn bảo quản Bưởi & Sầu riêng</a></li>
+              <li><a href="#features" class="hover:text-amber-300 transition-colors">Tiêu chuẩn canh tác VietGAP nhà vườn</a></li>
+              <li><a href="#" class="hover:text-amber-300 transition-colors">Hợp tác phân phối sỉ & Giỏ quà doanh nghiệp</a></li>
+            </ul>
+          </div>
+
+          <!-- Direct Garden & Showroom Column -->
+          <div class="md:col-span-4 space-y-3">
+            <h4 class="text-white text-sm font-bold uppercase tracking-wider">Hệ Thống Vườn & Showroom</h4>
+            <div class="space-y-2 text-xs text-stone-400">
+              <p class="flex items-start gap-2">
+                <span class="text-primary font-bold mt-0.5">📍</span>
+                <span><strong>Showroom TP.HCM:</strong> 128 Nguyễn Đình Chiểu, Phường Đa Kao, Quận 1, TP. Hồ Chí Minh</span>
+              </p>
+              <p class="flex items-start gap-2">
+                <span class="text-primary font-bold mt-0.5">🌳</span>
+                <span><strong>Vườn Bưởi Tân Triều:</strong> Cù lao Tân Triều, Xã Tân Bình, Huyện Vĩnh Cửu, Đồng Nai</span>
+              </p>
+              <p class="flex items-start gap-2">
+                <span class="text-primary font-bold mt-0.5">🌰</span>
+                <span><strong>Xưởng Điều Bình Phước:</strong> Xã Đức Liễu, Huyện Bù Đăng, Tỉnh Bình Phước</span>
+              </p>
+              <p class="flex items-center gap-2">
+                <span class="text-primary font-bold">📞</span>
+                <span><strong>Hotline Đặt Hàng:</strong> <a href="tel:19006889" class="text-amber-300 font-extrabold hover:underline">1900 68 89</a> - <a href="tel:0988223388" class="text-amber-300 hover:underline">0988 223 388</a></span>
+              </p>
+            </div>
+
+            <!-- Eco Badge -->
+            <div class="pt-2">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-stone-800 text-[11px] text-emerald-400 font-medium border border-emerald-500/20">
+                🌿 Chứng nhận Vệ Sinh An Toàn Thực Phẩm số: 489/2026/ATTP-ĐN
+              </span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="pt-8 mt-4 border-t border-stone-800/80 flex flex-col sm:flex-row items-center justify-between text-[11px] text-stone-500 gap-4">
+          <p>© 2026 <strong>VỊ ĐẤT ĐỎ</strong>. Bản quyền thuộc về Hợp tác xã Nông sản Đặc sản Miền Đông Nam Bộ. All rights reserved.</p>
+          <p class="text-stone-400">Trang Landing Page tối ưu hóa CRO chuẩn mô hình C.A.R.E.</p>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- ================= STICKY MOBILE BOTTOM BAR ================= -->
+    <div class="fixed bottom-0 left-0 right-0 z-40 bg-base-surface/95 backdrop-blur-md border-t border-base-border p-3 sm:hidden shadow-lg flex items-center justify-between gap-3">
+      <div class="flex flex-col">
+        <span class="text-[10px] text-stone-500 uppercase tracking-wider font-bold">Hái Tươi Hôm Nay</span>
+        <div class="flex items-baseline gap-1.5">
+          <span class="text-primary font-extrabold text-base">Giảm 25%</span>
+          <span class="text-[11px] text-leaf font-bold">+ Tặng quà</span>
+        </div>
+      </div>
+      <a href="#order-form" class="bg-primary hover:bg-primary-700 text-white text-xs font-bold uppercase tracking-wider py-2.5 px-5 rounded-xl shadow-warm-sm flex items-center gap-1.5">
+        <span>Đặt Hàng Ngay</span>
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+
+    <!-- ================= VIDEO MODAL FOR UNBOXING ================= -->
+    <div id="fruitVideoModal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-sm hidden items-center justify-center p-4">
+      <div class="bg-stone-900 border border-stone-700 rounded-3xl overflow-hidden max-w-3xl w-full relative shadow-2xl">
+        <button onclick="closeFruitVideoModal()" aria-label="Đóng video" class="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-white/20 hover:bg-white/40 text-white flex items-center justify-center font-bold text-lg">
+          ✕
+        </button>
+        <div class="p-6 text-white space-y-4">
+          <div class="aspect-video w-full rounded-2xl overflow-hidden bg-black flex items-center justify-center relative">
+            <img src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba?auto=format&fit=crop&w=1200&q=80" alt="Video Unboxing Bưởi & Sầu Riêng" class="w-full h-full object-cover opacity-75">
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-6 bg-gradient-to-t from-black/80 via-transparent to-transparent">
+              <div class="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center mb-3 shadow-warm-lg">
+                <svg class="w-8 h-8 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              </div>
+              <h4 class="text-lg font-bold">Unboxing Trực Tiếp Bưởi Tân Triều & Sầu Riêng Ri6</h4>
+              <p class="text-xs text-stone-300 max-w-md mt-1">
+                Video thực tế kiểm tra độ róc múi của bưởi, xem thớ cơm sầu riêng vàng dẻo và cam kết bao ăn 1 đổi 1 tận vườn.
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center justify-between pt-2">
+            <div class="text-xs text-stone-300">
+              <span class="text-emerald-400 font-bold">✓ Cam kết:</span> Trái giao đến tay bạn chuẩn 100% như video này.
+            </div>
+            <a href="#order-form" onclick="closeFruitVideoModal()" class="bg-primary hover:bg-primary-700 text-white text-xs font-bold uppercase tracking-wider py-2.5 px-4 rounded-xl">
+              Nhận Ưu Đãi Ngay
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ================= JAVASCRIPT LOGIC ================= -->
+  <script>
+    // 1. Mobile Menu Toggle
+    const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+    const mobileDropdown = document.getElementById('mobileDropdown');
+    if (mobileMenuToggle && mobileDropdown) {
+      mobileMenuToggle.addEventListener('click', () => {
+        mobileDropdown.classList.toggle('hidden');
+      });
+      mobileDropdown.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileDropdown.classList.add('hidden');
+        });
+      });
+    }
+
+    // 2. Real-time Countdown Timer for Urgency
+    function initCountdownTimer() {
+      const hEl = document.getElementById('countdownHours');
+      const mEl = document.getElementById('countdownMinutes');
+      const sEl = document.getElementById('countdownSeconds');
+
+      if (!hEl || !mEl || !sEl) return;
+
+      let totalSecs = (5 * 3600) + (42 * 60) + 18;
+
+      setInterval(() => {
+        if (totalSecs <= 0) {
+          totalSecs = 12 * 3600; // Reset for smooth preview flow
+        }
+        totalSecs--;
+
+        const hours = Math.floor(totalSecs / 3600);
+        const mins = Math.floor((totalSecs % 3600) / 60);
+        const secs = totalSecs % 60;
+
+        hEl.textContent = String(hours).padStart(2, '0');
+        mEl.textContent = String(mins).padStart(2, '0');
+        sEl.textContent = String(secs).padStart(2, '0');
+      }, 1000);
+    }
+    initCountdownTimer();
+
+    // 3. Selection Helpers for Combo Cards
+    function selectComboPackage(comboName) {
+      const select = document.getElementById('orderSelection');
+      if (select) {
+        for (let i = 0; i < select.options.length; i++) {
+          if (select.options[i].value.includes(comboName.split(' - ')[0])) {
+            select.selectedIndex = i;
+            break;
+          }
+        }
+      }
+    }
+
+    function selectFruitProduct(fruitName) {
+      const select = document.getElementById('orderSelection');
+      if (select) {
+        for (let i = 0; i < select.options.length; i++) {
+          if (select.options[i].text.includes(fruitName)) {
+            select.selectedIndex = i;
+            break;
+          }
+        }
+      }
+    }
+
+    // 4. Form Submit Handler
+    function handleFruitFormSubmit(e) {
+      e.preventDefault();
+      const form = document.getElementById('fruitOrderForm');
+      const successBox = document.getElementById('orderSuccessBox');
+
+      if (successBox) {
+        successBox.classList.remove('hidden');
+        successBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+
+      form.reset();
+    }
+
+    // 5. Video Modal Preview Controls
+    function openFruitVideoModal() {
+      const modal = document.getElementById('fruitVideoModal');
+      if (modal) {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+      }
+    }
+
+    function closeFruitVideoModal() {
+      const modal = document.getElementById('fruitVideoModal');
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeFruitVideoModal();
+    });
+  </script>
+</body>
+</html>
